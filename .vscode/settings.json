@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./payment_types",
+        "./models"
+    ]
+}
