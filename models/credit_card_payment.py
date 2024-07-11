@@ -1,6 +1,5 @@
+from models.payment import Payment
 from decimal import Decimal
-from payment import Payment
-
 
 class CreditCardPayment(Payment):
     def pay(self, amount: Decimal):
