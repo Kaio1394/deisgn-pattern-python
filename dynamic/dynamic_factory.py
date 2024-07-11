@@ -17,4 +17,4 @@ class DynamicFactory(object):
         if payment_type in self.payment_dict:
             return self.payment_dict[payment_type]()
         else:
-            raise ValueError(f"{payment_type} is not currently suported.")
+            raise ValueError(f"{payment_type} is not currently suported.") 
